@@ -29,7 +29,7 @@ function addTask() {
 
 // To mark task as completed
 function completeTask(listItem) {
-    listItem.querySelector('span').classList.toggle('text-decoration-line-through');
+    listItem.querySelector('span').classList.toggle('completed');
 };
 
 //To delete task
